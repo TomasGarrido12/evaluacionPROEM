@@ -1,0 +1,7 @@
+D:\Proem\evaluacionPROEM\Tomas Garrido\ejercicio1\bin\Debug\ejercicio1.exe.config
+D:\Proem\evaluacionPROEM\Tomas Garrido\ejercicio1\bin\Debug\ejercicio1.exe
+D:\Proem\evaluacionPROEM\Tomas Garrido\ejercicio1\bin\Debug\ejercicio1.pdb
+D:\Proem\evaluacionPROEM\Tomas Garrido\ejercicio1\obj\Debug\ejercicio1.csproj.AssemblyReference.cache
+D:\Proem\evaluacionPROEM\Tomas Garrido\ejercicio1\obj\Debug\ejercicio1.csproj.CoreCompileInputs.cache
+D:\Proem\evaluacionPROEM\Tomas Garrido\ejercicio1\obj\Debug\ejercicio1.exe
+D:\Proem\evaluacionPROEM\Tomas Garrido\ejercicio1\obj\Debug\ejercicio1.pdb
