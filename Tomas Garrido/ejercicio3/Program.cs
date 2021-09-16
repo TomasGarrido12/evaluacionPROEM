@@ -20,16 +20,14 @@ namespace ejercicio3
             int contadorKilosCarne = 0;
             int sumaCarne = 0;
             string saborLiviano = "";
-            bool bandera = true;
 
-            for (int i = 0; i < 3; i++)
+            for (int i = 0; i < 10; i++)
             {
                 int cantKilos = IngresarKilos("Por favor ingrese la cantidad de kilos (entre 0 y 500)");
                 string tipoSabor = IngresarSabor("Por favor ingrese el sabor (carne, vegetales o pollo)");
 
                 if (ValidarDatos(cantKilos, tipoSabor))
                 {
-                    bandera = false; //Con este flag ya valide todos los datos
                     contadorKilos++;
                     sumaKilos += cantKilos;
 
@@ -43,10 +41,6 @@ namespace ejercicio3
                         contadorKilosCarne++;
                         sumaCarne += cantKilos;
                     }
-                }
-                if (bandera) // Con este flag le digo al usuario que sus datos son erroneos y se los pido devuelta
-                {
-                    Console.WriteLine("Datos incorrectos, intenta devuelta");
                 }
             }              
                                                    
@@ -76,6 +70,7 @@ namespace ejercicio3
             }
             else
             {
+                Console.WriteLine("Datos incorrectos, intente devuelta");
                 flag = false;
             }
             return flag;
